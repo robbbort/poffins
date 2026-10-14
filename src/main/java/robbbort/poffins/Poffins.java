@@ -19,6 +19,14 @@ public class Poffins implements ModInitializer {
                         .title(Component.translatable("itemGroup.poffins"))
                         .icon(() -> PoffinsItems.SPICY_POFFIN.getDefaultInstance())
                         .displayItems((params, output) -> {
+                            output.accept(PoffinsBlocks.RED_POFFIN_MACHINE);
+                            output.accept(PoffinsBlocks.YELLOW_POFFIN_MACHINE);
+                            output.accept(PoffinsBlocks.GREEN_POFFIN_MACHINE);
+                            output.accept(PoffinsBlocks.BLUE_POFFIN_MACHINE);
+                            output.accept(PoffinsBlocks.PINK_POFFIN_MACHINE);
+                            output.accept(PoffinsBlocks.BLACK_POFFIN_MACHINE);
+                            output.accept(PoffinsBlocks.WHITE_POFFIN_MACHINE);
+
                             output.accept(PoffinsItems.SPICY_POFFIN);
                             output.accept(PoffinsItems.SPICY_DRY_POFFIN);
                             output.accept(PoffinsItems.SPICY_SWEET_POFFIN);

@@ -9,6 +9,11 @@ public enum Half implements StringRepresentable {
         <T> T or(T first, T second) {
             return second;
         }
+
+        @Override
+        public Half opposite() {
+            return LOWER;
+        }
     };
 
     private final String name;
@@ -24,5 +29,9 @@ public enum Half implements StringRepresentable {
 
     <T> T or(T first, T second) {
         return first;
+    }
+
+    public Half opposite() {
+        return UPPER;
     }
 }
