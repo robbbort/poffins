@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "poffins:item/spicy_bitter_poffin"
+  }
+}

@@ -22,7 +22,6 @@ dependencies {
 
     modImplementation("net.fabricmc:fabric-loader:0.19.5")
     modImplementation("net.fabricmc.fabric-api:fabric-api:0.116.17+1.21.1")
-
     modImplementation("net.fabricmc:fabric-language-kotlin:1.13.6+kotlin.2.2.20")
 
     modImplementation("com.cobblemon:fabric:1.8.2+1.21.1") {

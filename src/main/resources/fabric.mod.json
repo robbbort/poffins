@@ -16,6 +16,9 @@
   "entrypoints": {
     "main": [
       "robbbort.poffins.Poffins"
+    ],
+    "client": [
+      "robbbort.poffins.client.PoffinsClient"
     ]
   },
   "mixins": [

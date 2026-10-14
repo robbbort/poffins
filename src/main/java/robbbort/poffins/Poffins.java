@@ -23,6 +23,26 @@ public class Poffins implements ModInitializer {
                             output.accept(PoffinsItems.SPICY_SWEET_POFFIN);
                             output.accept(PoffinsItems.SPICY_BITTER_POFFIN);
                             output.accept(PoffinsItems.SPICY_SOUR_POFFIN);
+                            output.accept(PoffinsItems.DRY_SPICY_POFFIN);
+                            output.accept(PoffinsItems.DRY_POFFIN);
+                            output.accept(PoffinsItems.DRY_SWEET_POFFIN);
+                            output.accept(PoffinsItems.DRY_BITTER_POFFIN);
+                            output.accept(PoffinsItems.DRY_SOUR_POFFIN);
+                            output.accept(PoffinsItems.SWEET_SPICY_POFFIN);
+                            output.accept(PoffinsItems.SWEET_DRY_POFFIN);
+                            output.accept(PoffinsItems.SWEET_POFFIN);
+                            output.accept(PoffinsItems.SWEET_BITTER_POFFIN);
+                            output.accept(PoffinsItems.SWEET_SOUR_POFFIN);
+                            output.accept(PoffinsItems.BITTER_SPICY_POFFIN);
+                            output.accept(PoffinsItems.BITTER_DRY_POFFIN);
+                            output.accept(PoffinsItems.BITTER_SWEET_POFFIN);
+                            output.accept(PoffinsItems.BITTER_POFFIN);
+                            output.accept(PoffinsItems.BITTER_SOUR_POFFIN);
+                            output.accept(PoffinsItems.SOUR_SPICY_POFFIN);
+                            output.accept(PoffinsItems.SOUR_DRY_POFFIN);
+                            output.accept(PoffinsItems.SOUR_SWEET_POFFIN);
+                            output.accept(PoffinsItems.SOUR_BITTER_POFFIN);
+                            output.accept(PoffinsItems.SOUR_POFFIN);
                         })
                 .build());
     }
