@@ -7,6 +7,9 @@ import robbbort.poffins.Flavors;
 public class PoffinsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        TooltipComponentCallback.EVENT.register(data -> data instanceof Flavors flavors ? new FlavorsTooltip(flavors.flavors()) : null);
+        TooltipComponentCallback.EVENT.register(data ->{
+
+            return data instanceof Flavors flavors ? new FlavorsTooltip(flavors.flavors()) : null;
+        });
     }
 }

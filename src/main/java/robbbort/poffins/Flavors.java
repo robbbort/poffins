@@ -10,7 +10,7 @@ import java.util.Arrays;
 public record Flavors(int[] flavors) implements TooltipComponent {
     public static final Codec<Flavors> CODEC = Codec.INT_STREAM.xmap(ints -> new Flavors(ints.toArray()), flavors -> Arrays.stream(flavors.flavors));
 
-    public static final StreamCodec<FriendlyByteBuf, Flavors> STREAM_CODEC = new StreamCodec<FriendlyByteBuf, Flavors>() {
+    public static final StreamCodec<FriendlyByteBuf, Flavors> STREAM_CODEC = new StreamCodec<>() {
         @Override
         public Flavors decode(FriendlyByteBuf object) {
             return new Flavors(object.readVarIntArray());

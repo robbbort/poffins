@@ -12,6 +12,7 @@ public class Poffins implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        PoffinsBlocks.register();
         PoffinsItems.register();
 
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, resourceLocation(MOD_ID), FabricItemGroup.builder()
