@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "poffins",
+  "version": "${version}",
+  "name": "Poffins",
+  "description": "Poffins for Cobblemon",
+  "authors": [
+    "Robert"
+  ],
+  "contact": {
+    "homepage": "https://github.com/robbbort/poffins",
+    "sources": "https://github.com/robbbort/poffins"
+  },
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "robbbort.poffins.Poffins"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cobblemon": ">=1.8.1"
+  }
+}
